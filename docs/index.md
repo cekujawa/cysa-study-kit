@@ -1,27 +1,41 @@
 # 🔐 Cybersecurity Handbook
 
-This site is my living study kit for:
-- **Programming:** Python, Java, Web (HTML/CSS/JS)
-- **Ops:** Terminal & Linux fundamentals
-- **Certs:** CompTIA CySA+, Security+, Linux+
-- **Labs:** PBQ-style hands-on scenarios
+Welcome to my all-in-one cybersecurity study hub. This site covers **programming**, **ops**, and **certifications** — not just CySA+. Choose a section below:
 
 <div class="grid cards" markdown>
+- :material-language-python: **Python**
+  ---
+  Syntax, data types, and scripts for security use cases.  
+  [:octicons-arrow-right-16: Start »](python/index.md)
+
+- :material-language-java: **Java**
+  ---
+  OOP fundamentals and code snippets.  
+  [:octicons-arrow-right-16: Start »](java/index.md)
+
+- :material-language-html5: **Web (HTML/CSS/JS)**
+  ---
+  Web building blocks and security basics.  
+  [:octicons-arrow-right-16: Start »](web/index.md)
+
 - :material-console: **Terminal & CLI**
   ---
-  Sharpen shell skills and Linux basics.  
+  Sharpen your Linux and shell skills.  
   [:octicons-arrow-right-16: Start »](terminal/cli-practice.md)
-- :material-flask: **Labs (PBQs)**
-  ---
-  Incident-style exercises with prompts & logs.  
-  [:octicons-arrow-right-16: Linux Brute Force »](labs/linux-bruteforce.md)
-- :material-book: **Quizzes**
-  ---
-  Notes plus a terminal quiz tool powered by YAML.  
-  [:octicons-arrow-right-16: View »](quizzes/index.md)
+
 - :material-certificate: **CompTIA**
   ---
-  CySA+, Security+, Linux+ summaries & checklists.  
+  Notes and checklists for CySA+, Security+, Linux+.  
   [:octicons-arrow-right-16: CySA+ »](comptia/cysa/index.md)
+
+- :material-flask: **Labs (PBQs)**
+  ---
+  Hands-on scenarios simulating exam PBQs.  
+  [:octicons-arrow-right-16: Linux Brute Force »](labs/linux-bruteforce.md)
+
+- :material-book: **Quizzes**
+  ---
+  Quick checks to reinforce knowledge.  
+  [:octicons-arrow-right-16: View »](quizzes/index.md)
 </div>
 

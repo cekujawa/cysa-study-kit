@@ -20,6 +20,9 @@ theme:
       accent: indigo
 
 markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - admonition
   - pymdownx.details
   - pymdownx.tabbed:
@@ -53,60 +56,3 @@ nav:
   - Labs:
       - Overview: labs/index.md
       - Linux Brute Force: labs/linux-bruteforce.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(.venv) christiankujawa@Christians-MacBook-Pro-10 cysa-study-kit % 
-(.venv) christiankujawa@Christians-MacBook-Pro-10 cysa-study-kit % ls -l
-total 16
-drwxr-xr-x   5 christiankujawa  staff   160 Sep 15 15:15 cli
-drwxr-xr-x  10 christiankujawa  staff   320 Sep 15 15:15 docs
--rw-r--r--   1 christiankujawa  staff  1308 Sep 15 15:19 mkdocs.yml
-drwxr-xr-x   4 christiankujawa  staff   128 Sep 15 12:26 pbq
-drwxr-xr-x   4 christiankujawa  staff   128 Sep 15 15:15 quizzes
--rw-r--r--   1 christiankujawa  staff   502 Sep 15 13:07 README.md
-drwxr-xr-x   5 christiankujawa  staff   160 Sep 15 13:27 reports
-drwxr-xr-x  15 christiankujawa  staff   480 Sep 15 15:27 site
-(.venv) christiankujawa@Christians-MacBook-Pro-10 cysa-study-kit % 
-

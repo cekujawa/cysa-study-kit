@@ -1,0 +1,53 @@
+site_name: Cybersecurity Handbook
+site_description: Programming, Terminal, and CompTIA (CySA+, Security+, Linux+) notes + labs
+site_url: https://cekujawa.github.io/cysa-study-kit/
+repo_url: https://github.com/cekujawa/cysa-study-kit
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Python:
+      - Overview: python/index.md
+  - Java:
+      - Overview: java/index.md
+  - Web (HTML/CSS/JS):
+      - Overview: web/index.md
+  - Terminal:
+      - Overview: terminal/index.md
+      - CLI Practice: terminal/cli-practice.md
+  - CompTIA:
+      - CySA+: comptia/cysa/index.md
+      - Security+: comptia/securityplus/index.md
+      - Linux+: comptia/linuxplus/index.md
+  - Quizzes:
+      - Overview: quizzes/index.md
+      - Core Concepts: quizzes/core-concepts.md
+  - Labs:
+      - Overview: labs/index.md
+      - Linux Brute Force: labs/linux-bruteforce.md
+
